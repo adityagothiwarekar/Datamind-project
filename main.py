@@ -41,6 +41,7 @@ external_stylesheets = [
     'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/solid.min.css'
 ]
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server=app.server
 # df =pd.read_csv("Student_dataset_2021.csv")
 # new=df.groupby('stream')
 # newdf=new.max()
